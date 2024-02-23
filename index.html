@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cup O' Joy</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Cup O' Joy</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-cafeteria" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a cafeteria
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-cafeteria">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/08/21/14/49/cafe-1609795_1280.jpg" alt="Foto espaço cafeteria">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/07/31/19/27/coffee-2560260_1280.jpg" alt="Foto dos cafés">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/07/14/01/31/bagel-sandwich-4336044_960_720.jpg" alt="Foto de pães">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel"  data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel"  data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://cdn.pixabay.com/photo/2015/01/19/20/36/cafe-604600_960_720.jpg" class="d-block w-100 rounded" alt="Foto espaço interno da cafeteria">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <scan class="text-colored">a cafeteria</scan></h2>
+                            <p>
+                                Desde sua inauguração em 2005, a Cup O' Joy tem sido um refúgio aromático para os amantes de café. Localizada no coração da cidade, esta cafeteria acolhedora é conhecida por seu café fresco, torrado diariamente no local, e seu ambiente relaxante. 
+                            </p>
+                            <h3 class="section-title">Sobre <scan class="text-colored"> o espaço</scan></h3>
+                            <p>
+                                Na Cup O' Joy, temos o prazer de oferecer espaços aconchegantes para nossos clientes desfrutarem de sua experiência de café.
+                            </p>
+                            <ul>
+                                <li>Espaço de lounge</li>
+                                <li>Sala de reuniões / eventos</li>
+                                <li>Playground</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-colored">Para todas <span class="text-colored"> as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/07/05/52/cake-2600407_1280.jpg" alt="Bolo de aniversário" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-cake-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>
+                            Quer tornar seu aniversário inesquecível? Venha para a Cup O' Joy! Com nosso ambiente acolhedor e equipe dedicada, oferecemos o local perfeito para celebrar seu dia especial.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./eventos/confraternizacoes.jpg" alt="Confraternizações" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações
+                        </h3>
+                        <p>
+                            Venha celebrar seus momentos especiais conosco! Na Cup O' Joy, oferecemos o ambiente perfeito para sua confraternização. 
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./eventos/casamento.jpg" alt="Casamento" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-throught-heart-fill"></i>
+                            Recepção para casamentos
+                        </h3>
+                        <p>
+                            Celebre seu amor em um ambiente acolhedor na Cup O' Joy. Oferecemos o local perfeito para casamentos íntimos e memoráveis. 
+                        </p>
+                    </div>         
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">cardápio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cafes" class="fw-bold text-start nav-link text-colored active">Cafés</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored">Bebidas não alcóolicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Bebidas alcóolicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sanduiches" class="fw-bold text-start nav-link text-colored">Sanduiches</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#salgados" class="fw-bold text-start nav-link text-colored">Salgados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesa" class="fw-bold text-start nav-link text-colored">Sobremesa</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="cafes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/03/13/12/34/coffee-2139592_1280.jpg" alt="Café filtrado"/>
+                                        <h5 class="text-colored fw-bold mt-2">Café filtrado</h5>
+                                        <p>
+                                            O processo de filtragem remove muitos dos óleos e sólidos suspensos que podem estar presentes no café, produzindo uma xícara de café mais leve e menos espessa do que métodos de preparo como a cafeteira italiana ou a prensa francesa.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/06/22/15/21/latte-art-2431160_1280.jpg" alt="Café com leite"/>
+                                        <h5 class="text-colored fw-bold mt-2">Café com leite</h5>
+                                        <p>
+                                            Um café com leite é uma bebida feita com uma combinação de café e leite. É uma das formas mais populares de se desfrutar do café, especialmente em muitas culturas ao redor do mundo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/01/31/09/58/coffee-3120757_1280.jpg" alt="Café Mocha"/>
+                                        <h5 class="text-colored fw-bold mt-2">Café Mocha</h5>
+                                        <p>                                            
+                                            Um café mocha, também conhecido simplesmente como mocha, é uma bebida popular feita com uma combinação de café expresso, leite vaporizado, chocolate e, às vezes, creme batido ou chantilly.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/02/23/10/16/soya-latte-2091688_1280.jpg" alt="Latte Macchiato"/>
+                                        <h5 class="text-colored fw-bold mt-2">Latte Macchiato</h5>
+                                        <p> 
+                                            A preparação do Latte Macchiato envolve verter o leite vaporizado em um copo primeiro e, em seguida, adicionar cuidadosamente uma pequena quantidade de café expresso, criando uma mancha ou marca no topo do leite.                                           
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/02/05/17/coffee-1790576_1280.jpg" alt="Caramelo Macchiato"/>
+                                        <h5 class="text-colored fw-bold mt-2">Caramelo Macchiato</h5>
+                                        <p> 
+                                            O Caramelo Macchiato é uma variação do Latte Macchiato, uma bebida de café preparada com leite vaporizado e café expresso, com a adição de calda de caramelo para dar um toque doce e saboroso à bebida.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/05/31/13/28/coffee-358859_1280.jpg" alt="Capuccino tradicional"/>
+                                        <h5 class="text-colored fw-bold mt-2">Capuccino tradicional</h5>
+                                        <p> 
+                                            O Cappuccino tradicional é uma bebida de café italiana clássica composta por partes iguais de espresso, leite vaporizado e espuma de leite. O espresso é a base da bebida, adicionando uma dose intensa de sabor de café.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/03/28/17/36/juice-4087614_1280.jpg" alt="Suco de frutas"/>
+                                        <h5 class="text-colored fw-bold mt-2">Sucos de frutas naturais</h5>
+                                        <p>
+                                            Suco de fruta natural. Sabor laranja, abacaxi, morango, manga, acerola. Suco batido na hora.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/05/15/19/01/green-juice-769129_1280.jpg" alt="Suco verde"/>
+                                        <h5 class="text-colored fw-bold mt-2">Suco verde</h5>
+                                        <p>
+                                            O suco verde é uma bebida feita a partir da combinação de diferentes vegetais verdes, como espinafre, couve, pepino, aipo, salsinha, hortelã, além de frutas como maçã, abacaxi, limão, entre outras.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/03/21/01/39/coca-cola-2160843_1280.jpg" alt="Refrigerantes"/>
+                                        <h5 class="text-colored fw-bold mt-2">Refrigerantes</h5>
+                                        <p> 
+                                            Refrigerantes Coca-cola, Sprite, Guaraná Antarctica, Fanta (sabor uva e Laranja) e Pepsi.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/07/21/11/17/drink-1532300_1280.jpg" alt="Água tônica"/>
+                                        <h5 class="text-colored fw-bold mt-2">Água tônica</h5>
+                                        <p> 
+                                            A água tônica é uma bebida carbonatada, ou seja, gaseificada, que possui um sabor levemente amargo e refrescante. Ela é composta principalmente por água carbonatada, açúcar, aromatizantes e quinino, que é uma substância extraída da casca da árvore de cinchona e que confere à água tônica seu sabor característico.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2012/10/09/05/43/plastic-bottle-60468_1280.jpg" alt="Água sem gás"/>
+                                        <h5 class="text-colored fw-bold mt-2">Água sem gás</h5>
+                                        <p>
+                                            Água mineral sem gás.                                            
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2012/10/09/05/43/plastic-bottle-60468_1280.jpg" alt="Água com gás"/>
+                                        <h5 class="text-colored fw-bold mt-2">Água com gás</h5>
+                                        <p>
+                                            Água com gás.                                            
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/08/26/15/35/beer-428121_1280.jpg" alt="Cervejas"/>
+                                        <h5 class="text-colored fw-bold mt-2">Cervejas</h5>
+                                        <p>
+                                            Temos as cervejas Westvleteren 12 (Abt/Quadrupel), Pliny the Elder (Imperial IPA), Weihenstephaner Hefeweissbier, Trappist Rochefort 10 (Quadrupel), Founders KBS (Imperial Stout), Orval (Belgian Pale Ale), Duvel (Belgian Strong Pale Ale) e Sierra Nevada Pale Ale.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/11/22/18/38/wine-541922_1280.jpg" alt="Vinhos"/>
+                                        <h5 class="text-colored fw-bold mt-2">Vinhos</h5>
+                                        <p>
+                                            Temos os vinhos Bordeaux- França, Borgonha- França, Toscana- Itália, Napa Valley, Califórnia, EUA, entre outros.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/12/14/11/56/whiskey-3874925_1280.jpg" alt="Whisky"/>
+                                        <h5 class="text-colored fw-bold mt-2">Whisky</h5>
+                                        <p> 
+                                            Temos os Scotch Whisky, Bourbon, Irish Whiskey e Japanese Whisky.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/03/27/13/36/champagne-2178775_1280.jpg" alt="Espumantes"/>
+                                        <h5 class="text-colored fw-bold mt-2">Espumantes</h5>
+                                        <p>
+                                            Temos os Champagne- França, Cava- Espanha, Prosecco- Itália, Crémant- França e Sparkling Wine- Estados Unidos.  
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2020/04/06/23/57/drink-5011619_1280.jpg" alt="Gin"/>
+                                        <h5 class="text-colored fw-bold mt-2">Gin</h5>
+                                        <p>
+                                            Temos os Tanqueray, Bombay Sapphire, Hendrick's, The Botanist, Monkey 47, Sipsmith, Beefeater e Gin Mare.                                           
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2021/03/26/20/54/tequila-6126907_1280.jpg" alt="Tequila"/>
+                                        <h5 class="text-colored fw-bold mt-2">Tequila</h5>
+                                        <p>
+                                            Temos as Patrón, Don Julio, Herradura, Casa Noble, Clase Azul e Fortaleza.                                            
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sanduiches">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/05/29/17/01/hamburger-8026582_960_720.jpg" alt="Lanche com frango"/>
+                                        <h5 class="text-colored fw-bold mt-2">Frango Crocante</h5>
+                                        <p>
+                                            Lanche de frango, com pão francês, bacon,alface, frango temperado ao molho mostarda e molho barbecue.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/09/06/10/45/food-1648767_1280.jpg" alt="Lanche com frango"/>
+                                        <h5 class="text-colored fw-bold mt-2">Frango saudável</h5>
+                                        <p>
+                                            Lanche de frango, com pão francês, alface, tomate e molho de maionese temperada.       
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/06/16/07/00/sandwich-2408026_960_720.jpg" alt="Lanche de peito de peru"/>
+                                        <h5 class="text-colored fw-bold mt-2">Whisky</h5>
+                                        <p> 
+                                            Lanche de peito de peru, pão francês com gergilim, peito de peru, tomate e alface.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/11/19/18/01/sandwich-1051605_1280.jpg" alt="Lanche pão com bolinho"/>
+                                        <h5 class="text-colored fw-bold mt-2">Pão com bolinho</h5>
+                                        <p>
+                                            Pão australiano com bolinho de carne temperada com ervas finas, cenoura, azeitona, pepino, pimentão, tomate e maionese do chef.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/06/12/00/46/sandwich-3469785_1280.jpg" alt="Lanche enroladinho"/>
+                                        <h5 class="text-colored fw-bold mt-2">Lanche enroladinho</h5>
+                                        <p>
+                                            Lanche com massa de tortilha, enrolado em presunto, rucula, tomate, pimentão e molho de maionese verde.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/11/16/12/40/food-7595910_960_720.jpg" alt="Hamburguer"/>
+                                        <h5 class="text-colored fw-bold mt-2">Lanche de costela</h5>
+                                        <p>
+                                            Pão de hamburguer com gergilim, hambuguer de costela bovinha, queijo, molho de bacon, rucula e molho de maionese verde.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/03/17/23/42/burger-1264119_1280.jpg" alt="Lanche de porco"/>
+                                        <h5 class="text-colored fw-bold mt-2">Lanche de pernil</h5>
+                                        <p>
+                                            Lanche no pão de gergilim com pernil desfiado no molho barbecue, 2 fatias de queijo e farofa de bacon.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/01/13/19/54/sandwich-6935938_1280.jpg" alt="Lanche de peixe"/>
+                                        <h5 class="text-colored fw-bold mt-2">Lanche de filé de peixe empanado</h5>
+                                        <p>
+                                            Lanche no pão francês com recheio de filé de peixe empanado, alface e molho branco de ervas finas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="salgados">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/04/27/23/13/coxinha-4161606_1280.jpg" alt="Coxinha de frango"/>
+                                        <h5 class="text-colored fw-bold mt-2">Coxinha de frango</h5>
+                                        <p>
+                                            Coxinha com recheio de frango com requeijão.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/09/10/17/44/bread-3667557_1280.jpg" alt="Salgado assado"/>
+                                        <h5 class="text-colored fw-bold mt-2">Salgado assado com gergilim</h5>
+                                        <p>
+                                            Salgado assado com gergilim, temos os recheios de frango com requeijão, presunto e mussarela, 4 queijos, pizza, camarão e vegano.      
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/01/02/00/44/empanadas-1117284_1280.jpg" alt="Empanadas"/>
+                                        <h5 class="text-colored fw-bold mt-2">Empanadas</h5>
+                                        <p> 
+                                            Empanadas sabores 4 queijos, frango, presunto e mussarela, rucula com queijo e goiabada, rucula com queijo, carne, camarão, marguerita e brocolis com bacon.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/01/09/23/44/esfiha-1968008_960_720.jpg" alt="Esfiha"/>
+                                        <h5 class="text-colored fw-bold mt-2">Esfiha</h5>
+                                        <p>
+                                            Esfiha sabores 4 queijos, carne, frango, presunto e mussarela, brocolis com bacon, brocolis com alho, Pepperoni e calabresa. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/01/09/23/44/esfiha-1968009_1280.jpg" alt="Kibe"/>
+                                        <h5 class="text-colored fw-bold mt-2">Kibe</h5>
+                                        <p>
+                                            O kibe é um prato típico da culinária árabe, feito principalmente com trigo bulgur (ou triguilho), carne moída e temperos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/02/03/02/28/mini-pizza-257094_1280.jpg" alt="Mini pizza"/>
+                                        <h5 class="text-colored fw-bold mt-2">Mini pizza</h5>
+                                        <p>
+                                            Mini pizza sabor 4 queijo, calabresa, pepperoni, frango com catupiry, brocolis com bacon, brocolis com alho, carne, presunto e queijo. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesa">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/01/12/16/31/nougat-3078581_1280.jpg" alt="Mousse torrone"/>
+                                        <h5 class="text-colored fw-bold mt-2">Mousse torrone</h5>
+                                        <p>
+                                            Mousse é uma sobremesa leve e aerada, conhecida por sua textura cremosa e suave. É feita principalmente com ingredientes como claras de ovos, creme de leite e açúcar, adicionados a um ingrediente principal que pode ser chocolate, frutas, café, ou outros sabores.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_960_720.jpg" alt="Bolo de chocolate"/>
+                                        <h5 class="text-colored fw-bold mt-2">Bolo de chocolate</h5>
+                                        <p>
+                                            Além de uma deliciosa receita, o bolo de chocolate é uma sobremesa clássica e reconfortante que é apreciada em todo o mundo. Sua textura macia e sabor rico de cacau combinam perfeitamente com uma variedade de coberturas, desde glacês cremosos até ganaches indulgentes.      
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2021/02/06/19/29/pancakes-5989136_960_720.jpg" alt="Panqueca"/>
+                                        <h5 class="text-colored fw-bold mt-2">Panqueca estilo americana</h5>
+                                        <p>
+                                            Panqueca com chocolate e cocô. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/03/27/22/38/cake-1284548_1280.jpg" alt="Torta de fruta"/>
+                                        <h5 class="text-colored fw-bold mt-2">Torta de fruta</h5>
+                                        <p>
+                                            
+                                            A torta de fruta é uma sobremesa clássica e versátil que combina uma crosta de massa com um recheio de frutas frescas, muitas vezes acompanhadas por um creme ou geléia. Essa sobremesa é amada em todo o mundo por sua aparência colorida, sabor delicioso e textura reconfortante.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/12/26/16/09/bowl-1932375_960_720.jpg" alt="Sorvete"/>
+                                        <h5 class="text-colored fw-bold mt-2">Sorvete</h5>
+                                        <p>
+                                            Sorvete de morango, creme, chocolate, creme com maracujá, uva, abacaxi e goiaba.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/01/06/17/27/caramel-1958386_1280.jpg" alt="Pudim"/>
+                                        <h5 class="text-colored fw-bold mt-2">Pudim</h5>
+                                        <p>
+                                            Pudim leite condensado com cobertura de caramelo. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-colored">Fale <span class="text-colored"> conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                               <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Amourin Cabral Gomez nº 5245, Vila Nova- São Paulo- SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
